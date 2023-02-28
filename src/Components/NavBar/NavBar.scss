@@ -2,6 +2,9 @@
 
 .navbar {
     border-bottom: 2px solid rgba(250, 250, 250, 0.2);
+    position: absolute !important;
+    z-index: 1 !important;
+    width: 100%;
 }
 
 .link {
@@ -34,4 +37,20 @@ button:hover {
     background-color: $Main-Color !important;
     color: #FFF !important;
     transition: all .3s ease-in-out;
+}
+
+@media only screen and (max-width: 426px) {
+    .navbar {
+        border-bottom: 0px !important;
+        .nav {
+            background-color: #FFF !important;
+            color: black !important;
+            opacity: .9;
+            .link {
+                color: black !important;
+                padding: 17px 0px !important;
+            }
+        }
+    }
+
 }

@@ -13,7 +13,7 @@ const NavBar = () => {
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ms-auto">
+                        <Nav className="ms-auto nav">
                             <Nav.Link className='text-uppercase me-4 link text-md-start text-center' href="/Home">Home</Nav.Link>
                             <Nav.Link className='text-uppercase me-4 link text-md-start text-center' href="/Category">Category</Nav.Link>
                             <Nav.Link className='text-uppercase me-4 link text-md-start text-center' href="/Listing">Listing</Nav.Link>
